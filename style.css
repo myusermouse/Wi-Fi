@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'AdorshoLipi', sans-serif;
+    user-select: none;
+    -webkit-user-drag: none;
+    -ms-user-select: none;
+}
+.pp{
+    display: none;
+}
+body{
+    background: #56C3DB;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+form{
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+form .img-box{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+form img{
+    width: 100px;
+    filter: brightness(1.5)!important;
+    user-select: none;
+    -webkit-user-drag: none;
+    -ms-user-select: none;
+}
+form .wifi-img{
+    width: 200px!important;
+}
+form .lock-img{
+    width: 80px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+form h1{
+    text-align: center;
+    font-size: 1.2em;
+    filter: brightness(1.2);
+    
+}
+form input{
+    width: 100%;
+    height: 35px;
+    padding: 3px 30px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 1.1em;
+    font-weight: 500;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3),
+               inset 0 0 3px rgba(0,0,0,0.2);
+    background: #FFF9F4;
+    color: #9056DB;
+    font-family: monospace!important;
+}
+form button{
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3),
+              inset  0 0 5px rgba(0,0,0,0.3);
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 1em;
+    background: #9720FF;
+    color: #fff;
+    user-select: none;
+    -webkit-user-drag: none;
+    -ms-user-select: none;
+    margin-top: 10px;
+}
+.forget{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.forget a{
+    text-decoration: none;
+    color: #000;
+    user-select: none;
+    -webkit-user-drag: none;
+    -ms-user-select: none;
+}
+.forget a:hover{
+    text-decoration: underline;
+    color: #0946CD;
+}
+.forget .forget-click{
+    position: absolute;
+    font-size: 1em;
+    top: 50px;
+    left: 25%;
+    background: #1069D3;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-shadow: 0 0 2px rgba(0,0,0,0.2);
+    box-shadow: 0 0 4px rgba(0,0,0,0.3),
+              inset 0 0 5px rgba(0,0,0,0.2);
+}
